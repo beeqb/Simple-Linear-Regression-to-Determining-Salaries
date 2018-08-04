@@ -39,7 +39,7 @@ ggplot() +
              colour = 'blue') +
   geom_line(aes(x = training_set$Duration.of.Work.Experience..in.Years., y = predict(regressor, newdata = training_set)),
             colour = 'red') +
-  ggtitle('Duration of Work Experience v/s Salar (in USD) (Training set)') +
+  ggtitle('Duration of Work Experience v/s Salary (in USD) (Training set)') +
   xlab('Work Experience (in years)') +
   ylab('Salary (in USD)')
 
@@ -50,9 +50,10 @@ ggplot() +
              colour = 'red') +
   geom_line(aes(x = training_set$Duration.of.Work.Experience..in.Years., y = predict(regressor, newdata = training_set)),
             colour = 'blue') +
-  ggtitle('Work Experience (in years) (Test set)') +
+  ggtitle('Duration of Work Experience v/s Salary (in USD)(Test set)') +
   xlab('Work Experience (in years)') +
   ylab('Salary (in USD)')
+
 
 
 
