@@ -47,9 +47,9 @@ ggplot() +
 library(ggplot2)
 ggplot() +
   geom_point(aes(x = test_set$Duration.of.Work.Experience..in.Years., y = test_set$Salary..in.US..),
-             colour = 'red') +
+             colour = 'blue') +
   geom_line(aes(x = training_set$Duration.of.Work.Experience..in.Years., y = predict(regressor, newdata = training_set)),
-            colour = 'blue') +
+            colour = 'red') +
   ggtitle('Duration of Work Experience v/s Salary (in USD)(Test set)') +
   xlab('Work Experience (in years)') +
   ylab('Salary (in USD)')
