@@ -1,2 +1,14 @@
 # Simple-Linear-Regression-to-Determining-Salaries
-How exactly do companies, especially those mass recruiting multinational corporations determine salaries of thousands of new employees in one go?   Does years of experience of employees really help them determine salaries on such a large scale?   To answer the question, I tried to explore a sample salary dataset of an undisclosed company. It is interesting to know that using Simple Linear Regression (a basic Machine Learning algorithm), mass recruiters are deciding on salaries of thousands of employees in a matter of minutes, thereby cutting down on time spent, human resource cost and saving tens of thousands of dollars on a single mass recruitment drive.   Dive into my github to read more.     Approach  I considered duration of work experience as x (independent variable) and salary as y (dependent variable).   I then divided the dataset into training and test sets.  I allotted random 80% of the observations to the training set (an act of making the machine learn) and based on the learning (training set) by machine, I tried to predict the salaries of the rest 20% of the employees.   I then compared the predicted results with the actual test results of the dataset.   I was intrigued to know that the predicted results were pretty close to the actual test results. This testifies how companies can and (some) are increasingly using machine learning algorithms in their recruitment processes.   It is interesting how, using data, we can use a simple high school math concept to teach a machine and solve some of the fundamental business problems saving on time and money and drastically improving efficiency.    In case there are multiple factors (independent variables) like work experience, qualification type, location of work etc that influence the salary (dependent variable), then multiple linear regression algorithm can be used.  
+
+Approach  
+
+I considered duration of work experience as x (independent variable) and salary as y (dependent variable). 
+
+I then divided the dataset into training and test sets.  I allotted random 80% of the observations to the training set (an act of making the machine learn) and based on the learning (training set) by machine, I tried to predict the salaries of the rest 20% of the employees.  
+I then compared the predicted results with the actual test results of the dataset.  
+
+I was intrigued to know that the predicted results were pretty close to the actual test results. This testifies how companies can and (some) are increasingly using machine learning algorithms in their recruitment processes.   
+
+It is interesting how, using data, we can use a simple high school math concept to teach a machine and solve some of the fundamental business problems saving on time and money and drastically improving efficiency.   
+
+In case there are multiple factors (independent variables) like work experience, qualification type, location of work etc that influence the salary (dependent variable), then multiple linear regression algorithm can be used.  
