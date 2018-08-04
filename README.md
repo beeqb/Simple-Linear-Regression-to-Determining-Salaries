@@ -12,3 +12,10 @@ I was intrigued to know that the predicted results were pretty close to the actu
 It is interesting how, using data, we can use a simple high school math concept to teach a machine and solve some of the fundamental business problems saving on time and money and drastically improving efficiency.   
 
 In case there are multiple factors (independent variables) like work experience, qualification type, location of work etc that influence the salary (dependent variable), then multiple linear regression algorithm can be used.  
+
+
+
+
+
+
+
