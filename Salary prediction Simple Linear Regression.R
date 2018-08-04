@@ -1,5 +1,6 @@
 # Simple Linear Regression. Do companies really consider years of experience to determine a potential employee's salary?
-#This Data set says so. 
+
+#R code
 
 
 # let's Preprocess the data first. 
